@@ -11,7 +11,7 @@
 #include <avr/interrupt.h>
 #include <stdlib.h>
 //include ultrasone sensor library (trig_pin: 6 (PD6), echo_pin: 8(PB0))
-#include "HCSR04.h"
+#include <HCSR04.h>
 //constants (LEDS) 
 #define LED1 0b00000010 // pin 9 (PB1)
 #define LED2 0b00000100 //pin 10 (PB2)
